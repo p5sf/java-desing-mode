@@ -11,7 +11,7 @@ public class VisitorTest {
         Student student = new Student();
 
         UserVisitor userVisitor = new UserVisitor();
-        student.accept(new UserVisitor());
+        // student.accept(new UserVisitor());
         userVisitor.visit(student);
 
     }

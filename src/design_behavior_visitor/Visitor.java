@@ -9,11 +9,6 @@ public interface Visitor {
     // 学生访问
     void visit(Student student);
 
-    // 学生访问
+    // 老师访问
     void visit(Teacher teacher);
-
-
-
-
-
 }
