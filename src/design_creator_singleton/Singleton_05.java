@@ -4,11 +4,12 @@ package design_creator_singleton;
  * @author YanZhao
  * @description 双重校验
  * 方法级锁的优化，减少部分实例的耗时，同时也满足了懒加载
+ * 加入volatile保证new 不会重排序
  * @date 2022年11月21日 15:57
  */
 
 public class Singleton_05 {
-    private static Singleton_05 instance;
+    private volatile static Singleton_05 instance;
 
     private Singleton_05(){
 
