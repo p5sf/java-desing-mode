@@ -1,6 +1,5 @@
 package design_behavior_memento;
 
-import design_structure_adaptor.ThirdOrderService;
 
 /**
  * @author YanZhao
@@ -62,6 +61,9 @@ class Person {
     private String address;
     private int age;
 
+    // 备忘录信息
+    private MemorialInfo memorialInfo;
+
     public Person(String name, String address, int age, MemorialInfo memorialInfo) {
         this.name = name;
         this.address = address;
@@ -101,8 +103,6 @@ class Person {
         this.memorialInfo = memorialInfo;
     }
 
-    // 备忘录信息
-    private MemorialInfo memorialInfo;
 
     // 保存备忘录信息
     public void copy() {
