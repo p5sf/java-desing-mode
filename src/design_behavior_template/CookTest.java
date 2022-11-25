@@ -2,7 +2,7 @@ package design_behavior_template;
 
 /**
  * @author YanZhao
- * @description
+ * @description 模板模式：定义一套模板
  * @date 2022年11月22日 16:32
  */
 
@@ -19,7 +19,7 @@ abstract class Cooking{
     protected abstract void step3();
 
     // 定义制作流程模板
-    public void cook(){
+    final void cook(){
         System.out.println("做饭开始:");
         step1();
         step2();
