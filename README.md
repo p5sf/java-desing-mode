@@ -1,54 +1,56 @@
-![](https://java-note-pic.oss-cn-beijing.aliyuncs.com/java/1.9 设计模式秘籍图谱.jpg)
+
+
+<img src="https://java-note-pic.oss-cn-beijing.aliyuncs.com/java/1.9 设计模式秘籍图谱.jpg" alt="设计模式图谱">
 
 ## 目录
 
 创建者模式
 
-[单例模式](####单例模式)
+[单例模式](https://github.com/sundayskys/java-desing-mode#单例模式)
 
-[简单工厂模式](####简单工厂模式)
+[简单工厂模式](https://github.com/sundayskys/java-desing-mode#简单工厂模式)
 
-[抽象工厂模式](####抽象工厂模式)
+[抽象工厂模式](https://github.com/sundayskys/java-desing-mode#抽象工厂模式)
 
-[原型设计模式](####原型设计模式)
+[原型设计模式](https://github.com/sundayskys/java-desing-mode#原型设计模式)
 
 结构性模式
 
-[适配器模式](####适配器模式)
+[适配器模式](https://github.com/sundayskys/java-desing-mode#适配器模式)
 
-[桥接模式](####桥接模式)
+[桥接模式](https://github.com/sundayskys/java-desing-mode#桥接模式)
 
-[组合模式](####组合模式)
+[组合模式](https://github.com/sundayskys/java-desing-mode#组合模式)
 
-[装饰器模式](####装饰器模式)
+[装饰器模式](https://github.com/sundayskys/java-desing-mode#装饰器模式)
 
-[外观模式](####外观模式)
+[外观模式](https://github.com/sundayskys/java-desing-mode#外观模式)
 
-[享元模式](####享元模式)
+[享元模式](https://github.com/sundayskys/java-desing-mode#享元模式)
 
-[代理模式](####代理模式)
+[代理模式](https://github.com/sundayskys/java-desing-mode#代理模式)
 
 行为模式
 
-[责任链模式](####责任链模式)
+[责任链模式](https://github.com/sundayskys/java-desing-mode#责任链模式)
 
-[命令模式](####命令模式)
+[命令模式](https://github.com/sundayskys/java-desing-mode#命令模式)
 
-[迭代器模式](####迭代器模式)
+[迭代器模式](https://github.com/sundayskys/java-desing-mode#迭代器模式)
 
-[中介者模式](####中介者模式)
+[中介者模式](https://github.com/sundayskys/java-desing-mode#中介者模式)
 
-[备忘录模式](####备忘录模式)
+[备忘录模式](https://github.com/sundayskys/java-desing-mode#备忘录模式)
 
-[观察者模式](####观察者模式)
+[观察者模式](https://github.com/sundayskys/java-desing-mode#观察者模式)
 
-[状态模式](####状态模式)
+[状态模式](https://github.com/sundayskys/java-desing-mode#状态模式)
 
-[策略模式](####策略模式)
+[策略模式](https://github.com/sundayskys/java-desing-mode#策略模式)
 
-[模板模式](####模板模式)
+[模板模式](https://github.com/sundayskys/java-desing-mode#模板模式)
 
-[访问者模式](####访问者模式)
+[访问者模式](https://github.com/sundayskys/java-desing-mode#访问者模式)
 
 ## 创建者模式
 
