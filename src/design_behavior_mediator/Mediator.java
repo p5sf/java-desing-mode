@@ -10,6 +10,4 @@ public abstract class Mediator {
 
     // 进行卖家和买家联络
     public abstract void contact(String content, Trader trader);
-
-
 }

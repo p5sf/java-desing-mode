@@ -15,26 +15,8 @@ public abstract class Trader {
         this.mediator = mediator;
     }
 
-    public String getName() {
-        return name;
+    public abstract void getMessage(String message);
+    public void contact(String message) {
+        mediator.contact(message, this);
     }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Mediator getMediator() {
-        return mediator;
-    }
-
-    public void setMediator(Mediator mediator) {
-        this.mediator = mediator;
-    }
-
-    // 得到其他租客发来的消息
-    public abstract void getMessage(String message, String name);
-
-    // 与其他租客通信
-    public abstract void contactMessage(String message);
-
 }

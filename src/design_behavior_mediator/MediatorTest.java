@@ -13,14 +13,15 @@ package design_behavior_mediator;
 
 public class MediatorTest {
     public static void main(String[] args) {
-        // 定义中介者
+        // 定义具体中介者
         ConcreteMediator mediator = new ConcreteMediator();
-        // 定义具体交易者
-        TraderA traderA = new TraderA("张三", mediator);
-        TraderB traderB = new TraderB("张三", mediator);
+        // 定义具体交易者房主和房客只需知道中介即可
+        HouseOwner owner = new HouseOwner("张三", mediator);
+        Tenant tenant = new Tenant("张三", mediator);
         // 中介者知晓每个具体的交易者
-        mediator.setTraderA(traderA);
-        mediator.setTraderB(traderB);
-        traderA.contact("-");
+        mediator.setHouseOwner(owner);
+        mediator.setTraderB(tenant);
+        tenant.contact("你那里有房子要出租么");
+        owner.contact("是的你需要出租么");
     }
 }
